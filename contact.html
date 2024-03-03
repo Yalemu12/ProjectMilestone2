@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external stylesheet for styling -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Title of the page -->
+    <title>Your Name - Contact</title>
+</head>
+<body>
+    <!-- Header section with navigation menu -->
+    <header>
+        <nav>
+            <ul>
+                <!-- Navigation links to other pages -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main content section for the Contact page -->
+    <section id="contact">
+        <!-- Your contact form goes here -->
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <!-- Add your form fields here -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <!-- Include your JavaScript file for form submission -->
+    <script src="app.js"></script>
+</body>
+</html>
+
